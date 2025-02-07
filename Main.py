@@ -9,9 +9,9 @@ import numpy as np
 siteName = "Fresno CA USA"
 SampleRate = "1h"
 st.header = "Fresno AOD"
-StartDate = st.date_input("StartDate", datetime.date(2023, 7, 1))
+StartDate = st.date_input("StartDate", datetime.date(2024, 1, 1))
 StartDateTime = datetime.datetime.combine(StartDate, datetime.time(0, 0))
-EndDate = st.date_input("EndDate", datetime.date(2023, 7, 7))
+EndDate = st.date_input("EndDate", datetime.date(2024, 1, 7))
 EndDateTime = datetime.datetime.combine(EndDate, datetime.time(23, 59))
 
 # Allow the user to set y-axis limits
